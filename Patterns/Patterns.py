@@ -26,6 +26,7 @@ sorted_arr = sorted(arr3)                   # 새로운 리스트로 정렬
 max_val = max(arr3)
 min_val = min(arr3)
 total = sum(arr3)
+arr3.__delitem__()
 
 # ------------------------------------------------
 # 📌 3. 문자열 조작
